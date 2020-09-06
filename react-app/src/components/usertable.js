@@ -16,7 +16,7 @@ import ContactBtn from './buttons/contactbtn'
 
 const StyledTableCell = withStyles((theme) => ({
     head: {
-        backgroundColor: '#3F51A5',
+        backgroundColor: '#00baff',
         color: theme.palette.common.white,
         fontSize: 14
     },

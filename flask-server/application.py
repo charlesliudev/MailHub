@@ -59,3 +59,7 @@ def sendmail(address, subject, content):
     sendEmail(str(address), str(subject), str(content))
     print(address + " " + subject + " " + content)
     return {"message": [str(address), str(subject), str(content)]}
+
+
+if __name__ == '__main__':
+    application.run()

@@ -19,7 +19,7 @@ export default function NavigationBar() {
 
     return (
         <div className={classes.root}>
-            <AppBar position="static">
+            <AppBar position="static" style={{ backgroundColor: '#00baff' }}>
                 <Toolbar variant="dense">
                     <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
                         <i className="fa fa-users"></i>

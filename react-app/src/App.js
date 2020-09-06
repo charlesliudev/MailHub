@@ -144,7 +144,7 @@ class App extends React.Component {
                 <div className="form-group">
                   <input type="email" onChange={(e) => { this.emailChange(e) }} className="form-control" id="email" placeholder="Email" value={this.state.email}></input>
                 </div>
-                <button type="submit" className="btn btn-block" style={{ backgroundColor: "#3F51A5", color: "white" }}>Submit</button>
+                <button type="submit" className="btn btn-block" style={{ backgroundColor: "#00baff", color: "white" }}>Submit</button>
               </form>
 
 
@@ -160,7 +160,7 @@ class App extends React.Component {
                 <div className="form-group">
                   <textarea className="form-control" onChange={(e) => { this.contentChange(e) }} id="textarea" placeholder="Type here..." rows="5" value={this.state.emailcontent} ></textarea>
                 </div>
-                <button onClick={(e) => { this.sendEmail(e) }} type="submit" className="btn btn-block" style={{ backgroundColor: "#3F51A5", color: "white" }}>Submit</button>
+                <button onClick={(e) => { this.sendEmail(e) }} type="submit" className="btn btn-block" style={{ backgroundColor: "#00baff", color: "white" }}>Submit</button>
               </form>
 
 
